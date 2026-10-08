@@ -1,0 +1,30 @@
+nav.tabs {
+  border-bottom: 1px solid $primary-shade;
+
+  ul {
+    background: none;
+    width: fit-content;
+    gap: 2px;
+
+    .nav-item {
+      border-color: $primary-shade;
+
+      &.active {
+        a {
+          color: white;
+        }
+      }
+
+      .nav-link {
+        border-color: $primary-shade;
+        border-bottom: 0;
+
+        &:hover,
+        &.active {
+          background: $primary-shade;
+          color: $gray-100;
+        }
+      }
+    }
+  }
+}
