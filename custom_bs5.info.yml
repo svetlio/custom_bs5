@@ -33,8 +33,3 @@ regions:
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
   none: None
-
-# Information added by Drupal.org packaging script on 2025-06-10
-version: '5.0.2'
-project: 'bootstrap'
-datestamp: 1749514451

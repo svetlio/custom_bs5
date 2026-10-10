@@ -13065,6 +13065,11 @@ a {
   color: #064771;
 }
 
+em.placeholder {
+  background-color: transparent;
+  opacity: 1;
+}
+
 .bg-inverse {
   background: #0678be !important;
 }
@@ -13093,6 +13098,13 @@ a {
 
 .slick > div {
   margin: 0 15px;
+}
+
+.site-footer {
+  color: #e9ecef;
+}
+.site-footer a {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

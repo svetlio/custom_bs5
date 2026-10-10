@@ -1,8 +1,8 @@
 {
 	"name": "svetlio/custom_bs5",
-	"type": "drupal-theme",
-	"description": "SASS subtheme for Bootstrap Theme.",
-	"homepage": "http://drupal.org/project/bootstrap_sass",
+	"type": "drupal-custom-theme",
+	"description": "SASS subtheme for Bootstrap5.",
+	"homepage": "https://github.com/svetlio/custom_bs5",
 	"license": "GPL-2.0+",
 	"require": {
 		"drupal/bootstrap": ">=5.1.3"
