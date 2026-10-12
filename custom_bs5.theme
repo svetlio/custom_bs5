@@ -5,6 +5,7 @@
  * Functions to support theming in the SASS Starterkit subtheme.
  */
 
+use Drupal\comment\CommentInterface;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
