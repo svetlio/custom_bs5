@@ -13070,6 +13070,10 @@ em.placeholder {
   opacity: 1;
 }
 
+.alert-wrapper {
+  z-index: initial;
+}
+
 .bg-inverse {
   background: #0678be !important;
 }

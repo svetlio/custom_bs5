@@ -28,6 +28,10 @@ em {
   }
 }
 
+.alert-wrapper {
+  z-index:initial;
+}
+
 .bg-inverse {
   background: $primary-shade !important;
 }
