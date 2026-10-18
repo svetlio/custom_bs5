@@ -12,20 +12,21 @@ Under 'repositories' in composer.json add:
         }
 ~~~
 
-then install:
-`composer require svetlio/custom_bs5`
+then install with:
+`composer require svetlio/custom_bs5:^1.0`
 
 For own development usage:
 
 Detach the theme from composer or just download as a package.
-`./scripts/rename_theme.sh`
-- rename theme directory to new_name
+
+Rename`./scripts/rename_theme.sh`
+- rename the theme directory to new_name, and `cd new_name`
 - make the scripts executable: `chmod +x scripts/*`
-- run the script from theme's directory `cd web/themes/custom/new_name && ./scripts/rename_theme.sh`
-- enter a new theme machine_name when prompted.
+- run the script `./scripts/rename_theme.sh`
+- enter a new theme name new_name when prompted.
 - enable the new theme in the theme settings page.
 
-`npm install` - one time install.
+`npm install` - one-time installation. This is not required if you are not planning to make changes to the theme.
 
 Compile sass changes:
 `sass --watch ./sass/style.scss ./css/style.css`

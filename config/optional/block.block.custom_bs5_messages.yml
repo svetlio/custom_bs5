@@ -1,3 +1,4 @@
+uuid: 208ebbba-2742-41e3-bbe7-7e1cfe3958a2
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - system
   theme:
     - custom_bs5
+_core:
+  default_config_hash: hGBxzwBX17cGbl7N2NFJ-HyJCiaylkKvatTJz2Te3FA
 id: custom_bs5_messages
 theme: custom_bs5
 region: highlighted
