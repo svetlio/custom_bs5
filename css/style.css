@@ -13111,4 +13111,10 @@ em.placeholder {
   color: #fff;
 }
 
+.comment__content nav.links a {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+}
+
 /*# sourceMappingURL=style.css.map */

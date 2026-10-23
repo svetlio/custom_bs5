@@ -69,3 +69,13 @@ em {
     color: $white;
   }
 }
+
+.comment__content {
+  nav {
+    &.links {
+      a {
+        @include btn-primary;
+      }
+    }
+  }
+}
