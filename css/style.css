@@ -13111,4 +13111,16 @@ em.placeholder {
   color: #fff;
 }
 
+.comment__content .card-title {
+  margin-top: 0;
+}
+
+pre {
+  background-color: #343a40;
+  color: #e9ecef;
+  font-family: monospace;
+  font-size: 0.85rem;
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
