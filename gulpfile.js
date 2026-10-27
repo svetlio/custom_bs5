@@ -97,6 +97,19 @@ function js() {
     .pipe(browserSync.stream());
 }
 
+// Move the javascript files into our js folder without browser reload
+function jsBuild() {
+  return gulp
+    .src([
+      paths.js.bootstrap,
+      paths.js.bootstrapMap,
+      paths.js.popper,
+      paths.js.popperMap,
+      paths.js.base,
+    ])
+    .pipe(gulp.dest(paths.js.dest));
+}
+
 // Static Server + watching scss/html files
 function serve() {
   browserSync.init({
@@ -112,6 +125,7 @@ const build = gulp.series(styles, gulp.parallel(js, serve));
 
 exports.styles = styles;
 exports.js = js;
+exports.jsBuild = jsBuild;
 exports.serve = serve;
 
 exports.default = build;
