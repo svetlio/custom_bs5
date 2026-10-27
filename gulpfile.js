@@ -36,7 +36,9 @@ const paths = {
   },
   js: {
     bootstrap: './node_modules/bootstrap/dist/js/bootstrap.min.js',
+    bootstrapMap: './node_modules/bootstrap/dist/js/bootstrap.min.js.map',
     popper: './node_modules/@popperjs/core/dist/umd/popper.min.js',
+    popperMap: './node_modules/@popperjs/core/dist/umd/popper.min.js.map',
     base: '../../contrib/bootstrap/js/base.js',
     dest: './js',
   },
@@ -84,7 +86,13 @@ function styles() {
 // Move the javascript files into our js folder
 function js() {
   return gulp
-    .src([paths.js.bootstrap, paths.js.popper, paths.js.base])
+    .src([
+      paths.js.bootstrap,
+      paths.js.bootstrapMap,
+      paths.js.popper,
+      paths.js.popperMap,
+      paths.js.base,
+    ])
     .pipe(gulp.dest(paths.js.dest))
     .pipe(browserSync.stream());
 }
