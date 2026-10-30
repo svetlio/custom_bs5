@@ -1,5 +1,6 @@
 Bootstrap5 custom theme, from Bootstrap SASS (bootstrap_sass) Starter Kit.
-Bootstrap5 Drupal theme 5.0.2 (https://drupal.org/project/bootstrap) is required. Install it as usual or composer will install it automatically.
+Bootstrap5 Drupal theme 5.0.2 (https://drupal.org/project/bootstrap) is
+required. Install it as usual or composer will install it automatically.
 
 Development is going on ddev environment drupal11-bs5.
 
@@ -26,7 +27,8 @@ Rename`./scripts/rename_theme.sh`
 - enter a new theme name new_name when prompted.
 - enable the new theme in the theme settings page.
 
-`npm install` - one-time installation. This is not required if you are not planning to make changes to the theme.
+`npm install` - one-time installation. This is not required if you are not
+planning to make changes to the theme.
 
 Compile sass changes:
 `sass --watch ./sass/style.scss ./css/style.css`

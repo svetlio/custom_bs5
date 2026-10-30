@@ -5,7 +5,6 @@
  * Functions to support theming in the SASS Starterkit subtheme.
  */
 
-use Drupal\comment\CommentInterface;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
@@ -14,20 +13,20 @@ use Drupal\Core\Form\FormStateInterface;
  * Replace Bootstrap setting options with subtheme ones.
  */
 function custom_bs5_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
-  $form['components']['navbar']['bootstrap_navbar_top_background']['#options'] = array(
+  $form['components']['navbar']['bootstrap_navbar_top_background']['#options'] = [
     'bg-primary' => t('Primary'),
     'bg-secondary' => t('Secondary'),
     'bg-light' => t('Light'),
     'bg-dark' => t('Dark'),
     'bg-white' => t('White'),
     'bg-transparent' => t('Transparent'),
-  );
-  $form['components']['navbar']['bootstrap_navbar_background']['#options'] = array(
+  ];
+  $form['components']['navbar']['bootstrap_navbar_background']['#options'] = [
     'bg-primary' => t('Primary'),
     'bg-secondary' => t('Secondary'),
     'bg-light' => t('Light'),
     'bg-dark' => t('Dark'),
     'bg-white' => t('White'),
     'bg-transparent' => t('Transparent'),
-  );
+  ];
 }
